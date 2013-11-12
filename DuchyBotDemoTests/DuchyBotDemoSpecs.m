@@ -30,7 +30,13 @@ describe(@"DuchyBotDemoString", ^{
             NSString *string = @"abcdefghijklm";
             [[theValue([string length]) should] equal:theValue(13)];
         });
+        
+        it(@"should be prefixed with the letters ABC", ^{
+            NSString *string = @"abcdefghijklm";
+            [[string should] startWithString:@"ABC"];
+        });
     });
+    
 });
 
 SPEC_END
