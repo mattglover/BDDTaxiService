@@ -14,25 +14,32 @@ describe(@"DuchyBotDemoString", ^{
     
     context(@"when created", ^{
         
+        __block NSString *string;
+        beforeEach(^{
+            string = @"";
+        });
+        
         it(@"should not be nil", ^{
-            NSString *string = @"";
             [[string shouldNot] beNil];
         });
         
         it(@"should not contain any value", ^{
-            NSString *string = @"";
             [[theValue([string length]) shouldNot] beGreaterThan:theValue(0)];
         });
     });
     
     context(@"when created with a name", ^{
+        
+        __block NSString *string;
+        beforeEach(^{
+            string = @"ABCdefghijklm";
+        });
+        
         it(@"should contain the correct number of characters", ^{
-            NSString *string = @"abcdefghijklm";
             [[theValue([string length]) should] equal:theValue(13)];
         });
         
         it(@"should be prefixed with the letters ABC", ^{
-            NSString *string = @"abcdefghijklm";
             [[string should] startWithString:@"ABC"];
         });
     });
