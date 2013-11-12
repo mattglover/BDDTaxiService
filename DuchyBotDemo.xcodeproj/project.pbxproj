@@ -381,11 +381,13 @@
 		E2307DDC1832CE5E009AE697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DuchyBotDemo/DuchyBotDemo-Prefix.pch";
 				INFOPLIST_FILE = "DuchyBotDemo/DuchyBotDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,11 +396,13 @@
 		E2307DDD1832CE5E009AE697 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DuchyBotDemo/DuchyBotDemo-Prefix.pch";
 				INFOPLIST_FILE = "DuchyBotDemo/DuchyBotDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,6 +469,7 @@
 				E2307DDD1832CE5E009AE697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2307DDE1832CE5E009AE697 /* Build configuration list for PBXNativeTarget "DuchyBotDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +478,7 @@
 				E2307DE01832CE5E009AE697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
