@@ -11,11 +11,24 @@
 SPEC_BEGIN(DuchyBotDemoString)
 
 describe(@"DuchyBotDemoString", ^{
+    
     context(@"when created", ^{
+        
         it(@"should not be nil", ^{
-            
-            NSString *string = @"Matt Glover";
+            NSString *string = @"";
             [[string shouldNot] beNil];
+        });
+        
+        it(@"should not contain any value", ^{
+            NSString *string = @"";
+            [[theValue([string length]) shouldNot] beGreaterThan:theValue(0)];
+        });
+    });
+    
+    context(@"when created with a name", ^{
+        it(@"should contain the correct number of characters", ^{
+            NSString *string = @"abcdefghijklm";
+            [[theValue([string length]) should] equal:theValue(13)];
         });
     });
 });
