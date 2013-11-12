@@ -107,8 +107,9 @@
 		E2307DB81832CE5E009AE697 /* DuchyBotDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E2307DC11832CE5E009AE697 /* AppDelegate.h */,
-				E2307DC21832CE5E009AE697 /* AppDelegate.m */,
+				E2307DE31832CE7D009AE697 /* Model */,
+				E2307DE21832CE78009AE697 /* View */,
+				E2307DE11832CE74009AE697 /* Controller */,
 				E2307DC41832CE5E009AE697 /* Images.xcassets */,
 				E2307DB91832CE5E009AE697 /* Supporting Files */,
 			);
@@ -118,6 +119,8 @@
 		E2307DB91832CE5E009AE697 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2307DC11832CE5E009AE697 /* AppDelegate.h */,
+				E2307DC21832CE5E009AE697 /* AppDelegate.m */,
 				E2307DBA1832CE5E009AE697 /* DuchyBotDemo-Info.plist */,
 				E2307DBB1832CE5E009AE697 /* InfoPlist.strings */,
 				E2307DBE1832CE5E009AE697 /* main.m */,
@@ -142,6 +145,27 @@
 				E2307DD41832CE5E009AE697 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2307DE11832CE74009AE697 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2307DE21832CE78009AE697 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2307DE31832CE7D009AE697 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
