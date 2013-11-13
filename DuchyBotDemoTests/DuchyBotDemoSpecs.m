@@ -32,7 +32,7 @@ describe(@"DuchyBotDemoString", ^{
         
         __block NSString *string;
         beforeEach(^{
-            string = @"ABCdefghijklm";
+            string = @"ABCdefghijKLM";
         });
         
         it(@"should contain the correct number of characters", ^{
