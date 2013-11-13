@@ -19,8 +19,14 @@
 		E2307DCD1832CE5E009AE697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2307DB21832CE5E009AE697 /* Foundation.framework */; };
 		E2307DCE1832CE5E009AE697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2307DB61832CE5E009AE697 /* UIKit.framework */; };
 		E2307DD61832CE5E009AE697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2307DD41832CE5E009AE697 /* InfoPlist.strings */; };
-		E2307DD81832CE5E009AE697 /* DuchyBotDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2307DD71832CE5E009AE697 /* DuchyBotDemoTests.m */; };
-		E2F7ADE71832DF8800935031 /* DuchyBotDemoSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F7ADE61832DF8800935031 /* DuchyBotDemoSpecs.m */; };
+		E2476D9B18340EB70025D9C9 /* LondonTaxiSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2476D9A18340EB70025D9C9 /* LondonTaxiSpecs.m */; };
+		E252CC81183412C40097C90B /* TaxiCab.m in Sources */ = {isa = PBXBuildFile; fileRef = E252CC80183412C40097C90B /* TaxiCab.m */; };
+		E252CC8418341A430097C90B /* TaxiCabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = E252CC8318341A430097C90B /* TaxiCabDriver.m */; };
+		E252CC8A18341CEB0097C90B /* TaxiCabDriverSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = E252CC8918341CEB0097C90B /* TaxiCabDriverSpecs.m */; };
+		E252CC8D18341F440097C90B /* TaxiCabPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = E252CC8C18341F440097C90B /* TaxiCabPassenger.m */; };
+		E252CC8E18341F440097C90B /* TaxiCabPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = E252CC8C18341F440097C90B /* TaxiCabPassenger.m */; };
+		E252CC8F18341F4E0097C90B /* TaxiCabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = E252CC8318341A430097C90B /* TaxiCabDriver.m */; };
+		E252CC9018341F510097C90B /* TaxiCab.m in Sources */ = {isa = PBXBuildFile; fileRef = E252CC80183412C40097C90B /* TaxiCab.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +57,14 @@
 		E2307DCB1832CE5E009AE697 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E2307DD31832CE5E009AE697 /* DuchyBotDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuchyBotDemoTests-Info.plist"; sourceTree = "<group>"; };
 		E2307DD51832CE5E009AE697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E2307DD71832CE5E009AE697 /* DuchyBotDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuchyBotDemoTests.m; sourceTree = "<group>"; };
-		E2F7ADE61832DF8800935031 /* DuchyBotDemoSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuchyBotDemoSpecs.m; sourceTree = "<group>"; };
+		E2476D9A18340EB70025D9C9 /* LondonTaxiSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LondonTaxiSpecs.m; sourceTree = "<group>"; };
+		E252CC7F183412C40097C90B /* TaxiCab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiCab.h; sourceTree = "<group>"; };
+		E252CC80183412C40097C90B /* TaxiCab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiCab.m; sourceTree = "<group>"; };
+		E252CC8218341A430097C90B /* TaxiCabDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiCabDriver.h; sourceTree = "<group>"; };
+		E252CC8318341A430097C90B /* TaxiCabDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiCabDriver.m; sourceTree = "<group>"; };
+		E252CC8918341CEB0097C90B /* TaxiCabDriverSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiCabDriverSpecs.m; sourceTree = "<group>"; };
+		E252CC8B18341F440097C90B /* TaxiCabPassenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiCabPassenger.h; sourceTree = "<group>"; };
+		E252CC8C18341F440097C90B /* TaxiCabPassenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiCabPassenger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +152,8 @@
 		E2307DD11832CE5E009AE697 /* DuchyBotDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E2307DD71832CE5E009AE697 /* DuchyBotDemoTests.m */,
-				E2F7ADE61832DF8800935031 /* DuchyBotDemoSpecs.m */,
+				E2476D9A18340EB70025D9C9 /* LondonTaxiSpecs.m */,
+				E252CC8918341CEB0097C90B /* TaxiCabDriverSpecs.m */,
 				E2307DD21832CE5E009AE697 /* Supporting Files */,
 			);
 			path = DuchyBotDemoTests;
@@ -173,6 +185,12 @@
 		E2307DE31832CE7D009AE697 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E252CC7F183412C40097C90B /* TaxiCab.h */,
+				E252CC80183412C40097C90B /* TaxiCab.m */,
+				E252CC8218341A430097C90B /* TaxiCabDriver.h */,
+				E252CC8318341A430097C90B /* TaxiCabDriver.m */,
+				E252CC8B18341F440097C90B /* TaxiCabPassenger.h */,
+				E252CC8C18341F440097C90B /* TaxiCabPassenger.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,8 +325,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E252CC8D18341F440097C90B /* TaxiCabPassenger.m in Sources */,
 				E2307DC31832CE5E009AE697 /* AppDelegate.m in Sources */,
 				E2307DBF1832CE5E009AE697 /* main.m in Sources */,
+				E252CC8418341A430097C90B /* TaxiCabDriver.m in Sources */,
+				E252CC81183412C40097C90B /* TaxiCab.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +337,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2307DD81832CE5E009AE697 /* DuchyBotDemoTests.m in Sources */,
-				E2F7ADE71832DF8800935031 /* DuchyBotDemoSpecs.m in Sources */,
+				E252CC8E18341F440097C90B /* TaxiCabPassenger.m in Sources */,
+				E252CC9018341F510097C90B /* TaxiCab.m in Sources */,
+				E252CC8A18341CEB0097C90B /* TaxiCabDriverSpecs.m in Sources */,
+				E2476D9B18340EB70025D9C9 /* LondonTaxiSpecs.m in Sources */,
+				E252CC8F18341F4E0097C90B /* TaxiCabDriver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
