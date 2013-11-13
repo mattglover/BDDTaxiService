@@ -42,6 +42,10 @@ describe(@"DuchyBotDemoString", ^{
         it(@"should be prefixed with the letters ABC", ^{
             [[string should] startWithString:@"ABC"];
         });
+        
+        it(@"should be suffixed with the letters KLM", ^{
+            [[string should] endWithString:@"KLM"];
+        });
     });
     
 });
